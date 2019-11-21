@@ -2,14 +2,14 @@
 
 This repo contains an example React App, [TodoMVC](http://todomvc.com), with the goal of learning how to use [Cypress.io](https://cypress.io)
 
-This repo is **heavily** inspired in the [cypress-example-TodoMVC repo](https://github.com/cypress-io/cypress-example-todomvc) from [Cypress.io](https://cypress.io)
+This repo is **heavily** inspired in the [cypress-example-TodoMVC repo](https://github.com/cypress-io/cypress-tutorial-build-todo) from [Cypress.io](https://cypress.io)
 
 ## Help
 
 The steps below will allow to start this workshop
 
 
-### 1. Fork this repo
+### 1. Fork this repository
 
 After forking this project in `Github`, run these commands:
 
@@ -27,14 +27,14 @@ npm install
 npm start
 ```
 
-The `npm start` script will spawn a webserver on port `8888` which hosts the TodoMVC app.
+The `npm start` script will spawn:
 
-You can verify this by opening your browser and navigating to: [`http://localhost:8888`](http://localhost:8888)
+* a web server on port `8080` which hosts the TodoMVC app.
+* An API on port `3030` wich serves the data for the webapp.
+
+You can verify this by opening your browser and navigating to: [`Web`](http://localhost:8080) [`API`](http://localhost:3030/todos)
 
 You should see the TodoMVC app up and running. We are now ready to run Cypress tests.
 
 For exercises check [here](exercises/)
-
-
-
 
