@@ -9,21 +9,19 @@ This repo is **heavily** inspired in the [cypress-example-TodoMVC repo](https://
 The steps below will allow to start this workshop
 
 
-### 1. Fork this repository
+### 1. Fork or clone this repository
 
 After forking this project in `Github`, run these commands:
 
 ```bash
-## clone this repo to a local directory
-git clone https://github.com/<your-username>/cypress-workshop.git
 
-## cd into the cloned repo
+## cd into the repo
 cd cypress-workshop
 
 ## install the node_modules
 npm install
 
-## start the local webserver
+## start the local webserver with the API
 npm start
 ```
 
