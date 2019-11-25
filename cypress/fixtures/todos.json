@@ -1,5 +1,5 @@
 [
-    { "id": 1, "name": "Buy Milk from fixture", "isComplete": false },
+    { "id": 1, "name": "Buy Milk", "isComplete": false },
     { "id": 2, "name": "Buy Bread", "isComplete": true },
     { "id": 3, "name": "Go home", "isComplete": false },
     { "id": 4, "name": "relax", "isComplete": false }
