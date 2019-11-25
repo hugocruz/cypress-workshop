@@ -36,3 +36,11 @@ You should see the TodoMVC app up and running. We are now ready to run Cypress t
 
 For exercises check [here](exercises/)
 
+
+For extended support in vscode for the cypress syntax add the following header
+
+```js
+// type definitions for Cypress object "cy"
+/// <reference types="cypress" />
+```
+
