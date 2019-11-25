@@ -10,6 +10,10 @@
     "build": "webpack --mode production",
     "start": "concurrently \"webpack-dev-server --mode development --open\" \"npm run serve\""
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/hugocruz/cypress-workshop.git"
+  },
   "keywords": [],
   "author": "Hugo Cruz",
   "license": "MIT",
