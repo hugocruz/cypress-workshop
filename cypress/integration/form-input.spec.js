@@ -3,8 +3,16 @@
 
 
 describe('Form input', () => {
-    it('focus the input on load', () => {
+    beforeEach(() => {
         cy.visit('/');
+    })
+    it('focus the input on load', () => {
         cy.focused().should('have.class', 'new-todo');
+    });
+
+    it('accepts input', () => {
+        const inputText = 'this is my input';
+        cy.get('.new-todo').type(inputText).should('have.value', inputText);
+
     });
 });
