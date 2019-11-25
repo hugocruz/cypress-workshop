@@ -8,7 +8,8 @@
     "serve": "json-server db.json",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "concurrently \"webpack-dev-server --mode development --open\" \"npm run serve\""
+    "start": "concurrently \"webpack-dev-server --mode development --open\" \"npm run serve\"",
+    "cypress": "cypress open"
   },
   "repository": {
     "type": "git",
