@@ -25,9 +25,9 @@
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
 
-Cypress.Commands.add('loadAndVisit', () => {
+Cypress.Commands.add('loadAndVisit', (loadData = 'fixture:todos') => {
     cy.server();
-    cy.route('GET', '/api/todos', 'fixture:todos').as('load');
+    cy.route('GET', '/api/todos', loadData).as('load');
     cy.visit('/');
     cy.wait('@load');
 });
