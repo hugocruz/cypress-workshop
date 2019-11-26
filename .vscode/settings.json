@@ -1,5 +1,10 @@
 {
-  "standard.enable": false,
-  "eslint.enable": true,
-  "prettier.eslintIntegration": true
+	"standard.enable": false,
+	"eslint.enable": true,
+	"editor.detectIndentation": false,
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"[json]": {
+		"editor.tabSize": 2
+	}
 }
