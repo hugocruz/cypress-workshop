@@ -49,4 +49,4 @@ For extended support in vscode for the cypress syntax add the following header
 
 [Why Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
 
-[Introduction to Cypress](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html#Cypress-Can-Be-Simple-Sometimes)
+[Introduction to Cypress](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html)
