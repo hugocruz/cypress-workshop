@@ -8,8 +8,7 @@ This repo is **heavily** inspired in the [cypress-example-TodoMVC repo](https://
 
 The steps below will allow to start this workshop
 
-
-### 1. Fork or clone this repository
+### Fork or clone this repository
 
 After forking this project in `Github`, run these commands:
 
@@ -44,3 +43,10 @@ For extended support in vscode for the cypress syntax add the following header
 /// <reference types="cypress" />
 ```
 
+### Cypress References
+
+[API](https://docs.cypress.io/api/api/table-of-contents.html)
+
+[Why Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
+
+[Introduction to Cypress](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html#Cypress-Can-Be-Simple-Sometimes)
